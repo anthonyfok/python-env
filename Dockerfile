@@ -32,7 +32,7 @@ FROM debian:bullseye-slim
 
 LABEL org.opencontainers.image.authors="Joost van Ulden <joost.vanulden@canada.ca>, Anthony Fok <anthony.fok@canada.ca>"
 LABEL org.opencontainers.image.source="https://github.com/opendrr/python-env"
-LABEL org.opencontainers.image.version="1.3.0"
+LABEL org.opencontainers.image.version="1.3.1"
 LABEL org.opencontainers.image.vendor="Government of Canada"
 LABEL org.opencontainers.image.licenses="MIT"
 
@@ -50,7 +50,7 @@ RUN echo 'deb http://deb.debian.org/debian bullseye-backports main' >> /etc/apt/
        gpg \
     && curl https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor \
        | tee /etc/apt/trusted.gpg.d/apt.postgresql.org.gpg >/dev/null \
-    && echo 'deb http://apt.postgresql.org/pub/repos/apt/ bullseye-pgdg main 14' \
+    && echo 'deb http://apt.postgresql.org/pub/repos/apt/ bullseye-pgdg main 15' \
        > /etc/apt/sources.list.d/pgdg.list \
     && curl -fsSL --create-dirs --output /usr/share/keyrings/githubcli-archive-keyring.gpg \
        https://cli.github.com/packages/githubcli-archive-keyring.gpg \
