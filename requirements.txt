@@ -7,7 +7,7 @@ idna==2.10
 numpy==1.19.5
 pandas==1.1.5
 ply==3.11
-psycopg2==2.9.3
+psycopg2==2.9.4
 psycopg2cffi==2.8.1
 pycparser==2.20
 python-dateutil==2.8.1
