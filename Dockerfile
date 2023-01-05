@@ -3,7 +3,7 @@
 # Authors: Joost van Ulden <joost.vanulden@canada.ca>
 #          Anthony Fok <anthony.fok@canada.ca>
 #
-# Copyright (c) 2020-2022 Government of Canada
+# Copyright (c) 2020-2023 Government of Canada
 #
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation
@@ -28,7 +28,7 @@
 #
 # =================================================================
 
-FROM debian:bookworm-20220912-slim
+FROM debian:bookworm-20221219-slim
 
 LABEL org.opencontainers.image.authors="Joost van Ulden <joost.vanulden@canada.ca>, Anthony Fok <anthony.fok@canada.ca>"
 LABEL org.opencontainers.image.source="https://github.com/opendrr/python-env"
