@@ -49,7 +49,7 @@ RUN apt-get update \
        gpg \
     && curl https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor \
        | tee /etc/apt/trusted.gpg.d/apt.postgresql.org.gpg >/dev/null \
-    && echo 'deb http://apt.postgresql.org/pub/repos/apt/ bookworm-pgdg main 14' \
+    && echo 'deb http://apt.postgresql.org/pub/repos/apt/ bookworm-pgdg main 15' \
        > /etc/apt/sources.list.d/pgdg.list \
     && curl -fsSL --create-dirs --output /usr/share/keyrings/githubcli-archive-keyring.gpg \
        https://cli.github.com/packages/githubcli-archive-keyring.gpg \
