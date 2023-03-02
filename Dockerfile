@@ -28,7 +28,7 @@
 #
 # =================================================================
 
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 
 LABEL org.opencontainers.image.authors="Joost van Ulden <joost.vanulden@canada.ca>, Anthony Fok <anthony.fok@canada.ca>"
 LABEL org.opencontainers.image.source="https://github.com/opendrr/python-env"
